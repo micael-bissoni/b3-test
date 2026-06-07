@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CdbInvestment.API/CdbInvestment.API.csproj" />
+  <Project Path="CdbInvestment.Domain/CdbInvestment.Domain.csproj" />
+  <Project Path="CdbInvestment.Infrastructure/CdbInvestment.Infrastructure.csproj" />
+</Solution>

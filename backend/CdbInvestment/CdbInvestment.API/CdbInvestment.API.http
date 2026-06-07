@@ -1,0 +1,6 @@
+@CdbInvestment.API_HostAddress = http://localhost:5287
+
+GET {{CdbInvestment.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

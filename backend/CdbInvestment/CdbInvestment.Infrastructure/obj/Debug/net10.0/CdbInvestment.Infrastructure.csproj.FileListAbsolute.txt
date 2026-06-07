@@ -1,0 +1,11 @@
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Infrastructure/bin/Debug/net10.0/CdbInvestment.Infrastructure.deps.json
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Infrastructure/bin/Debug/net10.0/CdbInvestment.Infrastructure.dll
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Infrastructure/bin/Debug/net10.0/CdbInvestment.Infrastructure.pdb
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Infrastructure/obj/Debug/net10.0/CdbInvestment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Infrastructure/obj/Debug/net10.0/CdbInvestment.Infrastructure.AssemblyInfoInputs.cache
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Infrastructure/obj/Debug/net10.0/CdbInvestment.Infrastructure.AssemblyInfo.cs
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Infrastructure/obj/Debug/net10.0/CdbInvestment.Infrastructure.csproj.CoreCompileInputs.cache
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Infrastructure/obj/Debug/net10.0/CdbInvestment.Infrastructure.dll
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Infrastructure/obj/Debug/net10.0/refint/CdbInvestment.Infrastructure.dll
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Infrastructure/obj/Debug/net10.0/CdbInvestment.Infrastructure.pdb
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Infrastructure/obj/Debug/net10.0/ref/CdbInvestment.Infrastructure.dll

@@ -1,0 +1,11 @@
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Domain/bin/Debug/net10.0/CdbInvestment.Domain.deps.json
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Domain/bin/Debug/net10.0/CdbInvestment.Domain.dll
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Domain/bin/Debug/net10.0/CdbInvestment.Domain.pdb
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Domain/obj/Debug/net10.0/CdbInvestment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Domain/obj/Debug/net10.0/CdbInvestment.Domain.AssemblyInfoInputs.cache
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Domain/obj/Debug/net10.0/CdbInvestment.Domain.AssemblyInfo.cs
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Domain/obj/Debug/net10.0/CdbInvestment.Domain.csproj.CoreCompileInputs.cache
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Domain/obj/Debug/net10.0/CdbInvestment.Domain.dll
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Domain/obj/Debug/net10.0/refint/CdbInvestment.Domain.dll
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Domain/obj/Debug/net10.0/CdbInvestment.Domain.pdb
+/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Domain/obj/Debug/net10.0/ref/CdbInvestment.Domain.dll

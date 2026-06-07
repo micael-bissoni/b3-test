@@ -1,0 +1,12 @@
+# Compilar especificando o arquivo de solução moderno
+dotnet build CdbInvestment.slnx
+
+# Executar os testes da solução dentro da pasta: backend/CdbInvestment/CdbInvestment.API
+dotnet run
+
+
+# Executar os testes da solução dentro da pasta: backend/CdbInvestment
+dotnet test CdbInvestment.slnx
+
+# Executar os testes coletando a cobertura de código (DoD > 90%)
+dotnet test CdbInvestment.slnx /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
