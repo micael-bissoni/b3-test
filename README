@@ -26,6 +26,10 @@ dotnet test /p:CollectCoverage=true /p:CoverletOutput=./coverage/ /p:CoverletOut
 
 ### Executar a solução dentro da pasta: frontend
 
+npm install
+
+### Executar a solução dentro da pasta: frontend
+
 npm start
 
 ### Executar o storybook dentro da pasta: frontend
