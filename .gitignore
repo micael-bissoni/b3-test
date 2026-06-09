@@ -16,8 +16,20 @@ build/
 Thumbs.db
 
 # Backend build artifacts
-backend/*/bin/
-backend/*/obj/
+**/bin/
+**/obj/
+**/[Dd]ebug/
+**/[Rr]elease/
+**/*.suo
+**/*.user
+**/*.userosscache
+**/*.sln.docstates
+**/packages/
+**/*.nupkg
+**/*.snupkg
+**/project.lock.json
+**/.vs/
+**/*.DotSettings.user
 
 # Frontend build artifacts (assuming 'dist' is the output)
-frontend/dist/
+**/dist/

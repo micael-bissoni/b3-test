@@ -1,5 +1,5 @@
 <Solution>
   <Project Path="CdbInvestment.API/CdbInvestment.API.csproj" />
   <Project Path="CdbInvestment.Domain/CdbInvestment.Domain.csproj" />
-  <Project Path="CdbInvestment.Domain/CdbInvestment.Tests.csproj" />
+  <Project Path="CdbInvestment.Tests/CdbInvestment.Tests.csproj" />
 </Solution>
