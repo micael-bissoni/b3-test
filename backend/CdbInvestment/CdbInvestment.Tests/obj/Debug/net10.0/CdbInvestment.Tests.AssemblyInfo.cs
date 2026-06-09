@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CdbInvestment.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a045577d4747081969e76c5e95d262bc1bbdc9e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c124216b65e27d8fad35189dc9e135635feb382")]
 [assembly: System.Reflection.AssemblyProductAttribute("CdbInvestment.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CdbInvestment.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,28 @@
+{
+  "asset": {
+    "font": {
+      "custom": {
+        "name": {
+          "value": "Indie Flower"
+        },
+        "ttf": {
+          "value": "'assets/fonts/Indie_Flower/IndieFlower-Regular.ttf'"
+        },
+        "weight": {
+          "value": "400"
+        },
+        "style": {
+          "value": "normal"
+        }
+      }
+    }
+  },
+  "font": {
+    "family": {
+      "headers": {
+        "value": "{asset.font.custom.name.value}, sans-serif",
+        "type": "fontFamily"
+      }
+    }
+  }
+}

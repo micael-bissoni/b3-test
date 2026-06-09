@@ -1,12 +1,33 @@
-# Compilar especificando o arquivo de solução moderno
+# CDB Investment Simulator 🚀
+
+Este repositório contém a solução completa para o simulador de investimentos de CDB, dividida entre uma API robusta em **.NET 10** (com cobertura de testes unitários superior a 90% utilizando xUnit) e um ecossistema de Frontend moderno documentado via Storybook com suporte multiplas marcas/clientes e localizações.
+
+---
+
+## 🛠️ Architecture & Commands
+
+Os comandos abaixo devem ser executados a partir do terminal. Certifique-se de estar no diretório correto conforme indicado em cada etapa.
+
+### Compilar especificando o arquivo de solução dentro da pasta: backend/CdbInvestment/
+
 dotnet build CdbInvestment.slnx
 
-# Executar os testes da solução dentro da pasta: backend/CdbInvestment/CdbInvestment.API
+### Executar a solução dentro da pasta: backend/CdbInvestment/CdbInvestment.API
+
 dotnet run
 
+### Executar os testes da solução dentro da pasta: backend/CdbInvestment/CdbInvestment.Tests
 
-# Executar os testes da solução dentro da pasta: backend/CdbInvestment
 dotnet test CdbInvestment.slnx
 
-# Executar os testes coletando a cobertura de código (DoD > 90%)
-dotnet test CdbInvestment.slnx /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+### Executar os testes coletando a cobertura de código (DoD > 90%) dentro da pasta: backend/CdbInvestment/CdbInvestment.Tests
+
+dotnet test /p:CollectCoverage=true /p:CoverletOutput=./coverage/ /p:CoverletOutputFormat=cobertura
+
+### Executar a solução dentro da pasta: frontend
+
+npm start
+
+### Executar o storybook dentro da pasta: frontend
+
+npm run storybook

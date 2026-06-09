@@ -22,9 +22,7 @@
 /Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.API/bin/Debug/net10.0/NSwag.Generation.AspNetCore.dll
 /Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.API/bin/Debug/net10.0/YamlDotNet.dll
 /Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.API/bin/Debug/net10.0/CdbInvestment.Domain.dll
-/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.API/bin/Debug/net10.0/CdbInvestment.Infrastructure.dll
 /Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.API/bin/Debug/net10.0/CdbInvestment.Domain.pdb
-/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.API/bin/Debug/net10.0/CdbInvestment.Infrastructure.pdb
 /Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.API/obj/Debug/net10.0/CdbInvestment.API.csproj.AssemblyReference.cache
 /Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.API/obj/Debug/net10.0/rpswa.dswa.cache.json
 /Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.API/obj/Debug/net10.0/CdbInvestment.API.GeneratedMSBuildEditorConfig.editorconfig

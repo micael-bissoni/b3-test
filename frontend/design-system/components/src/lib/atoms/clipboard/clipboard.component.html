@@ -1,0 +1,9 @@
+<div [class]="clipboardVariants({ status: status() })">
+  <ng-content></ng-content>
+
+  <div [class]="clipboardContainerVariants({ status: status() })">
+    <ds-button (click)="onCopy()" size="small" intent="ghost">
+      <ds-icon intent="inherit" [name]="status() === 'copied' ? 'content-paste' : 'content-copy'"></ds-icon>
+    </ds-button>
+  </div>
+</div>

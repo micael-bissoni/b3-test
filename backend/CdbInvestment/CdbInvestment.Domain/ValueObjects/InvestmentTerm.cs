@@ -13,7 +13,9 @@ namespace CdbInvestment.Domain.ValueObjects
         {
 
             if (value <= 1)
+            {
                 throw new ArgumentException("O prazo em meses para resgate deve ser maior que 1.");
+            }
 
             Value = value;
         }

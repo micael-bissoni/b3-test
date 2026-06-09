@@ -1,0 +1,16 @@
+{
+    "icon": {
+        "content-copy": {
+            "value": "url('/tokens/web/web/assets/icons/content-copy.svg')",
+            "type": "asset"
+        },
+        "content-paste": {
+            "value": "url('/tokens/web/web/assets/icons/content-paste.svg')",
+            "type": "asset"
+        },
+        "check-circle": {
+            "value": "url('/tokens/web/web/assets/icons/check-circle.svg')",
+            "type": "asset"
+        }
+    }
+}

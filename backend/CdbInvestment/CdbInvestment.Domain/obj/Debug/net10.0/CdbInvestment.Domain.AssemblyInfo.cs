@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CdbInvestment.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d49a94a93d70b5626bd2e5b8c2980fac21da997")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1b51227a655a463c23f390789bf8eaf3b1f61a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CdbInvestment.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CdbInvestment.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
