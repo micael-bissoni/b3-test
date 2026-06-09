@@ -5,7 +5,12 @@ Este repositório contém a solução completa para o simulador de investimentos
 ---
 
 ## 🛠️ Architecture & Commands
-
+```
+Dotnet v10
+Angular v21.2.0
+Node v20.20.0
+Npm: v10.8.2
+```
 Os comandos abaixo devem ser executados a partir do terminal. Certifique-se de estar no diretório correto conforme indicado em cada etapa.
 
 ### Compilar especificando o arquivo de solução dentro da pasta: backend/CdbInvestment/
@@ -14,24 +19,24 @@ dotnet build CdbInvestment.slnx
 
 ### Executar a solução dentro da pasta: backend/CdbInvestment/CdbInvestment.API
 
-dotnet run
+```dotnet run```
 
 ### Executar os testes da solução dentro da pasta: backend/CdbInvestment/CdbInvestment.Tests
 
-dotnet test CdbInvestment.slnx
+```dotnet test CdbInvestment.slnx```
 
 ### Executar os testes coletando a cobertura de código (DoD > 90%) dentro da pasta: backend/CdbInvestment/CdbInvestment.Tests
 
-dotnet test /p:CollectCoverage=true /p:CoverletOutput=./coverage/ /p:CoverletOutputFormat=cobertura
+```dotnet test /p:CollectCoverage=true /p:CoverletOutput=./coverage/ /p:CoverletOutputFormat=cobertura```
 
 ### Instalar pacotes npm dentro da pasta: frontend
 
-npm install
+```npm install```
 
 ### Executar a solução dentro da pasta: frontend
 
-npm start
+```npm start```
 
 ### Executar o storybook dentro da pasta: frontend
 
-npm run storybook
+```npm run storybook```
