@@ -98,31 +98,45 @@ export class CurrencyInputComponent implements ControlValueAccessor {
     private parse(text: string): number | null {
         if (!text) return null;
 
-        const cleaned = text
-            .replace(/[^0-9.,-]/g, '')
-            .replace(',', '.');
+        const isNegative = text.includes('-');
+        const cleaned = text.replace(/\D/g, '');
+        if (!cleaned) return null;
 
-        const result = parseFloat(cleaned);
-        return isNaN(result) ? null : result;
+        let result = parseInt(cleaned, 10);
+        return isNegative ? -result : result;
     }
 
     onInput(event: Event): void {
         const input = event.target as HTMLInputElement;
+        
+        const selectionStart = input.selectionStart || 0;
+        const previousValue = input.value;
+        
         const parsed = this.parse(input.value);
 
         this.rawValue = parsed;
         this.onChange(parsed);
-        this.displayValue = input.value;
+
+        if (parsed !== null) {
+            this.displayValue = this.format(parsed);
+        } else {
+            this.displayValue = '';
+        }
+        
+        const offset = this.displayValue.length - previousValue.length;
+        input.value = this.displayValue;
+        
+        let newSelectionStart = selectionStart + offset;
+        if (newSelectionStart < 0) newSelectionStart = 0;
+        
+        input.setSelectionRange(newSelectionStart, newSelectionStart);
     }
 
     onBlur(): void {
         this.onTouched();
-        this.displayValue =
-            this.rawValue != null ? this.format(this.rawValue) : '';
     }
 
     onFocus(): void {
-        this.displayValue =
-            this.rawValue != null ? String(this.rawValue) : '';
+        // Keep formatted value on focus
     }
 }
