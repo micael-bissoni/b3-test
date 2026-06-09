@@ -32,4 +32,5 @@ Thumbs.db
 **/*.DotSettings.user
 
 # Frontend build artifacts (assuming 'dist' is the output)
-**/dist/
+**/._node_modules
+**/.nx
