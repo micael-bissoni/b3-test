@@ -1,0 +1,40 @@
+{
+    "icon": {
+        "logo": {
+            "value": "url('/tokens/web/base/assets/logo.svg')",
+            "type": "asset"
+        },
+        "content-copy": {
+            "value": "url('/tokens/web/base/assets/icons/content-copy.svg')",
+            "type": "asset"
+        },
+        "content-paste": {
+            "value": "url('/tokens/web/base/assets/icons/content-paste.svg')",
+            "type": "asset"
+        },
+        "check-circle": {
+            "value": "url('/tokens/web/base/assets/icons/check-circle.svg')",
+            "type": "asset"
+        },
+        "calendar-today": {
+            "value": "url('/tokens/web/base/assets/icons/calendar-today.svg')",
+            "type": "asset"
+        },
+        "payments": {
+            "value": "url('/tokens/web/base/assets/icons/payments.svg')",
+            "type": "asset"
+        },
+        "corporate-fare": {
+            "value": "url('/tokens/web/base/assets/icons/corporate-fare.svg')",
+            "type": "asset"
+        },
+        "management": {
+            "value": "url('/tokens/web/base/assets/icons/management.svg')",
+            "type": "asset"
+        },
+        "location-on": {
+            "value": "url('/tokens/web/base/assets/icons/location-on.svg')",
+            "type": "asset"
+        }
+    }
+}

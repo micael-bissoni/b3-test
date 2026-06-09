@@ -1,0 +1,36 @@
+{
+    "path": "./node_modules/commitizen-emoji",
+    "config": {
+        "commitizenEmoji": {
+            "types": [
+                {
+                    "emoji": "😱",
+                    "code": ":scream:",
+                    "description": "I don't understand a bit in all this code.",
+                    "name": "wtf"
+                }
+            ],
+            "skipQuestions": [
+                "body",
+                "breakingBody",
+                "issues"
+            ],
+            "scopes": [
+                "atoms",
+                "molecules",
+                "organisms",
+                "templates",
+                "pages",
+                "tokens",
+                "utils",
+                "pipes",
+                "directives",
+                "services",
+                "guards",
+                "interceptors",
+                "resolvers",
+                "design-system"
+            ]
+        }
+    }
+}

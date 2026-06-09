@@ -1,0 +1,14 @@
+{
+  "font": {
+    "family": {
+      "headers": {
+        "value": "{font.platform.system}",
+        "type": "fontFamily"
+      },
+      "base": {
+        "value": "{font.platform.system}",
+        "type": "fontFamily"
+      }
+    }
+  }
+}

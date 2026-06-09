@@ -1,0 +1,59 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --button-border-radius: 4px;
+  --button-text-size: 12pt;
+  --button-height: 40px;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray-light: #cccccc;
+  --color-gray-medium: #999999;
+  --color-gray-dark: #111111;
+  --color-success: #22bb33;
+  --color-warning: #f0ad4e;
+  --color-danger: #bb2124;
+  --color-info: #5bc0de;
+  --color-primary: #e15a3a;
+  --color-secondary: #af1736;
+  --color-tertiary: #efa34c;
+  --color-on-primary: #f1ed21;
+  --color-on-secondary: #21f13e;
+  --color-on-tertiary: #ffffff;
+  --color-on-success: #ffffff;
+  --color-on-warning: #ffffff;
+  --color-on-danger: #ffe6c3;
+  --color-on-info: #ffffff;
+  --font-family-headers: Indie Flower, sans-serif;
+  --font-family-base: Tahoma, Arial, 'Helvetica Neue', sans;
+  --font-platform-system: Tahoma, Arial, 'Helvetica Neue', sans;
+  --size-font-xsmall: 8pt; /** the xsmall size of the font */
+  --size-font-small: 10pt; /** the small size of the font */
+  --size-font-medium: 12pt; /** the medium size of the font */
+  --size-font-large: 14pt; /** the large size of the font */
+  --size-font-xlarge: 18pt; /** the xl size of the font */
+  --size-font-2xlarge: 24pt; /** the 2xl size of the font */
+  --size-font-3xlarge: 32pt; /** the 3xl size of the font */
+  --size-font-4xlarge: 40pt; /** the 4xl size of the font */
+  --size-font-5xlarge: 48pt; /** the 5xl size of the font */
+  --size-font-6xlarge: 56pt; /** the 6xl size of the font */
+  --size-font-7xlarge: 64pt; /** the 7xl size of the font */
+  --size-font-8xlarge: 72pt; /** the 8xl size of the font */
+  --size-font-9xlarge: 80pt; /** the 9xl size of the font */
+  --size-font-10xlarge: 88pt; /** the 10xl size of the font */
+  --size-font-base: 12pt; /** the base size of the font */
+  --icon-logo: url('/tokens/web/brand-2/assets/logo.svg');
+  --icon-content-copy: url('/tokens/web/base/assets/icons/content-copy.svg');
+  --icon-content-paste: url('/tokens/web/base/assets/icons/content-paste.svg');
+  --icon-check-circle: url('/tokens/web/base/assets/icons/check-circle.svg');
+  --icon-calendar-today: url('/tokens/web/base/assets/icons/calendar-today.svg');
+  --icon-payments: url('/tokens/web/base/assets/icons/payments.svg');
+  --icon-corporate-fare: url('/tokens/web/base/assets/icons/corporate-fare.svg');
+  --icon-management: url('/tokens/web/base/assets/icons/management.svg');
+  --icon-location-on: url('/tokens/web/base/assets/icons/location-on.svg');
+  --asset-font-custom-name: Indie Flower;
+  --asset-font-custom-ttf: 'assets/fonts/Indie_Flower/IndieFlower-Regular.ttf';
+  --asset-font-custom-weight: 400;
+  --asset-font-custom-style: normal;
+}

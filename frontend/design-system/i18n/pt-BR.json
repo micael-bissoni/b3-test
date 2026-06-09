@@ -1,0 +1,643 @@
+{
+  "common": {
+    "searchPlaceholder": "Pesquisar...",
+    "notifications": "Notificações",
+    "settings": "Configurações",
+    "pdf": "PDF",
+    "add": "Adicionar",
+    "empty": "Sem resultados",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "support": "Suporte",
+    "export": "Exportar",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço",
+    "back": "Voltar",
+    "roles": {
+      "seniorRep": "Rep. Sénior",
+      "chiefPharmacist": "Farmacêutico-Chefe",
+      "regionalManager": "Gerente Regional",
+      "supervisor": "Supervisor",
+      "pharmacist": "Farmacêutico",
+      "assistant": "Assistente",
+      "administrator": "Administrador"
+    },
+    "units": "unidades",
+    "discount": {
+      "tier1": "Nível 1 (5% Desc)",
+      "tier2": "Nível 2 (15% Desc)",
+      "tier3": "Nível 3 (20% Desc)"
+    },
+    "optional": "Opcional",
+    "remove": "Remover",
+    "itemSelected": "Item Selecionado",
+    "itemsSelected": "Itens Selecionados",
+    "appName": "TREVVO",
+    "guest": "Convidado",
+    "noData": "Nenhum dado encontrado.",
+    "navigation": {
+      "dashboard": "Dashboard",
+      "hierarchy": "Hierarquia",
+      "profiles": "Perfis",
+      "team": "Equipa",
+      "compliance": "Conformidade"
+    }
+  },
+  "styleguide": {
+    "title": "Guia de Estilo",
+    "subtitle": "Fundamentos e Identidade de Marca",
+    "font": {
+      "title": "Fonte",
+      "descriptionFoundations": "A nossa tipografia baseia-se em variáveis definidas no sistema. A fonte dos cabeçalhos utiliza a família configurada, combinando uma estética contemporânea com uma forte legibilidade. A fonte base garante a acessibilidade e uma leitura elegante em todos os elementos da interface, ajustando-se perfeitamente tanto a sistemas de design arrojados como minimalistas."
+    },
+    "brand": {
+      "title": "Identidade de Marca",
+      "description": "A nossa identidade de marca é representada pelo logótipo principal, que é carregado dinamicamente através de tokens de design. Isto garante a consistência da marca em diferentes plataformas e temas, ao mesmo tempo que permite uma manutenção e atualizações fáceis."
+    },
+    "headline": {
+      "title": "Títulos",
+      "h1": "Título 1",
+      "h2": "Título 2",
+      "body": "Corpo",
+      "captions": "Legendas"
+    },
+    "typography": {
+      "bold": "Negrito",
+      "semiBold": "Semi Negrito",
+      "medium": "Médio",
+      "regular": "Regular",
+      "labels": {
+        "large": "Grande",
+        "medium": "Médio",
+        "base": "Base",
+        "small": "Pequeno"
+      }
+    },
+    "color": {
+      "title": "Sistema de Cores",
+      "descriptionFoundations": "O sistema de cores utiliza uma combinação equilibrada dos nossos tokens de marca, incluindo intenções primárias e secundárias. Apresenta uma progressão de cinzentos base, criando uma identidade visual calma e confiável. Estes são combinados com uma escala de cinzentos que vai do preto profundo ao cinza claro, oferecendo um forte contraste para a tipografia e elementos de interface."
+    },
+    "colors": {
+      "brand": "Marca",
+      "status": "Estado",
+      "neutrals": "Neutros",
+      "primary": "Primário",
+      "secondary": "Secundário",
+      "tertiary": "Terciário",
+      "success": "Sucesso",
+      "warning": "Aviso",
+      "danger": "Perigo",
+      "info": "Informação",
+      "white": "Branco",
+      "black": "Preto",
+      "grayLight": "Cinzento Claro",
+      "grayMedium": "Cinzento Médio",
+      "grayDark": "Cinzento Escuro"
+    },
+    "localization": {
+      "title": "i18n e Moeda",
+      "currencyTitle": "Visualização de Moeda",
+      "currencyDesc": "CurrencyPipe padrão usando",
+      "dateTitle": "Visualização de Data",
+      "dateDesc": "Localização usando DatePipe padrão"
+    }
+  },
+  "atoms": {
+    "avatar": {
+      "alt": "Avatar do utilizador"
+    },
+    "signaturePad": {
+      "placeholder": "Assine aqui",
+      "authorization": "Autorização necessária"
+    },
+    "tierBadge": {
+      "tier": "Nível",
+      "gold": "Ouro",
+      "silver": "Prata",
+      "bronze": "Bronze",
+      "platinum": "Platina"
+    },
+    "datagridCellDesignation": {
+      "placeholder": "Nome da Designação"
+    },
+    "datagridCellLocation": {
+      "placeholder": "País"
+    },
+    "datagridCellStatus": {
+      "active": "Ativo",
+      "inactive": "Inativo",
+      "pending": "Pendente",
+      "rejected": "Rejeitado",
+      "canceled": "Cancelado",
+      "error": "Erro"
+    },
+    "select": {
+      "placeholder": "Selecione um idioma",
+      "languages": {
+        "en": "Inglês",
+        "pt": "Português",
+        "es": "Espanhol",
+        "fr": "Francês"
+      }
+    }
+  },
+  "molecules": {
+    "visitItem": {
+      "contactPerson": "Pessoa de Contacto",
+      "directions": "Direções",
+      "checkIn": "Check In",
+      "waiting": "A aguardar",
+      "status": {
+        "nextUp": "Seguinte",
+        "scheduled": "Agendado",
+        "completed": "Concluído"
+      }
+    },
+    "productCard": {
+      "perUnit": "por unidade",
+      "add": "Adicionar"
+    },
+    "bottomActionsNav": {
+      "checkoutVisit": "Terminar Visita",
+      "nav": {
+        "home": "Início",
+        "order": "Pedido",
+        "visit": "Visita",
+        "dashboard": "Dashboard",
+        "profile": "Perfil"
+      }
+    },
+    "categoryBreakdown": {
+      "salesDistribution": "Distribuição de Vendas",
+      "categories": {
+        "cardiology": "Cardiologia",
+        "neurology": "Neurologia",
+        "generalMed": "Clínica Geral"
+      }
+    },
+    "floatingActionBar": {
+      "totalOrderValue": "Valor Total do Pedido",
+      "estimatedDelivery": "Entrega Estimada",
+      "saveDraft": "Guardar Rascunho",
+      "reviewOrder": "Revisar Pedido"
+    },
+    "kpiCard": {
+      "target": "Objetivo"
+    },
+    "leaderboardItem": {
+      "you": "Tu",
+      "pts": "pts"
+    },
+    "navigation": {
+      "home": "Início",
+      "orders": "Pedidos",
+      "products": "Produtos",
+      "settings": "Configurações"
+    },
+    "profileSummary": {
+      "employeeId": "Nº Funcionário",
+      "topPerformer": "Top 5% Desempenho",
+      "districtRank": "Classificação Distrital Atual",
+      "online": "Online"
+    },
+    "tierProgress": {
+      "addAmount": "Adicione",
+      "toUnlock": "para desbloquear",
+      "discounts": "descontos"
+    },
+    "timerCard": {
+      "visitInProgress": "Visita em progresso",
+      "totalDuration": "Duração Total",
+      "pause": "Pausar",
+      "addNote": "Adicionar Nota"
+    },
+    "toast": {
+      "title": {
+        "success": "Sucesso",
+        "error": "Erro",
+        "warning": "Aviso",
+        "info": "Informação",
+        "default": "Notificação"
+      },
+      "messages": {
+        "successMsg": "As suas alterações foram guardadas com sucesso.",
+        "errorMsg": "Falha ao guardar as alterações. Por favor, tente novamente.",
+        "warningMsg": "A sua subscrição está prestes a expirar.",
+        "infoMsg": "Novas atualizações estão disponíveis para a sua aplicação."
+      }
+    },
+    "uploadSlot": {
+      "label": "Carregar Evidência",
+      "subtext": "Toque para carregar foto ou documento",
+      "activeLabel": "Largue Aqui",
+      "activeSubtext": "Solte para carregar"
+    },
+    "signatureCollector": {
+      "title": "Assinatura Digital",
+      "clear": "Limpar Área",
+      "disclaimer": "Ao assinar abaixo, autoriza a aquisição dos itens listados acima e confirma que os preços e descontos de nível são precisos de acordo com o seu contrato de conta.",
+      "license": "Licença",
+      "timestamp": "Timestamp"
+    },
+    "dataGridFilter": {
+      "title": "Filtros de Organização",
+      "clear": "Limpar",
+      "confirm": "Confirmar",
+      "regionsLabel": "Regiões Ativas",
+      "statusLabel": "Estado",
+      "statusOptions": {
+        "all": "Todos",
+        "active": "Ativa",
+        "pending": "Pendente"
+      }
+    },
+    "inputPassword": {
+      "showPassword": "Mostrar senha",
+      "hidePassword": "Ocultar senha"
+    },
+    "fileUpload": {
+      "label": "Carregar ficheiro",
+      "drop": "Solte para carregar",
+      "change": "Alterar ficheiro",
+      "remove": "Remover ficheiro"
+    }
+  },
+  "organisms": {
+    "dataGrid": {
+      "title": "Campanhas Ativas",
+      "subtitle": "Gestão operacional da plataforma",
+      "placeholder": "Buscar campanhas...",
+      "pagination": {
+        "range": "{{start}} - {{end}} de {{total}}",
+        "empty": "0 - 0 de 0"
+      },
+      "columns": {
+        "entityName": "Nome da Entidade",
+        "masterKey": "Chave Mestre (EIK)",
+        "category": "Categoria",
+        "status": "Estado",
+        "unitName": "Nome da Unidade",
+        "eik": "EIK",
+        "type": "Tipo"
+      },
+      "nesting": {
+        "title": "Aninhamento"
+      }
+    },
+    "login": {
+      "email": "Email",
+      "emailPlaceholder": "utilizador@pharma.com",
+      "password": "Senha",
+      "passwordPlaceholder": "••••",
+      "forgotPassword": "Esqueceu-se?",
+      "loginBtn": "Entrar",
+      "loadingBtn": "A entrar...",
+      "errors": {
+        "emailInvalid": "É necessário um email válido",
+        "passwordRequired": "A senha é obrigatória"
+      }
+    },
+    "nexusDock": {
+      "regions": "Regiões",
+      "entities": "Entidades"
+    },
+    "cartSidebar": {
+      "currentOrder": "Pedido Atual",
+      "pharmacyId": "ID da Farmácia",
+      "emptyCart": "O seu carrinho está vazio",
+      "subtotal": "Subtotal",
+      "taxHandling": "Taxas & Manuseamento",
+      "totalEst": "Total Est."
+    },
+    "dailyProgress": {
+      "title": "Progresso Diário",
+      "live": "AO VIVO",
+      "visitsDone": "Visitas Concluídas",
+      "targetCompletion": "Meta de Conclusão",
+      "footerMessageDefault": "Faltam 4 visitas para atingir o seu bónus diário!",
+      "footerMessageCompleted": "Meta diária alcançada! Hora de relaxar."
+    },
+    "sidebar": {
+      "portalName": "Portal do Supervisor",
+      "mainContentArea": "Área de Conteúdo Principal",
+      "description": "A barra lateral é fixa e colapsa/rola corretamente.",
+      "collapse": "Colapsar",
+      "links": {
+        "dashboard": "Painel",
+        "teamReports": "Relatórios de Equipa",
+        "salesAnalysis": "Análise de Vendas",
+        "productTiers": "Níveis de Produtos",
+        "settings": "Configurações"
+      }
+    },
+    "insightsPanel": {
+      "coachingOpps": "Oportunidades de Coaching",
+      "observationLabel": "Observação",
+      "observationText": "O valor médio dos pedidos está ligeiramente abaixo da média distrital, apesar da alta execução das visitas.",
+      "priorityActionLabel": "Ação Prioritária",
+      "priorityActionText": "Acompanhamento na visita cancelada ao Hospital St. Jude (Out 23). Conta de alta prioridade.",
+      "supervisorNotesTitle": "Notas Privadas do Supervisor",
+      "addNotesPlaceholder": "Adicione as notas de coaching aqui...",
+      "lastEdited": "Última edição",
+      "saveNotes": "Guardar Notas",
+      "defaultNotes": "Foque no aumento do tamanho do pedido na próxima semana.",
+      "defaultLastEdited": "Hoje às 10:45"
+    },
+    "kpiSection": {
+      "totalTeamSales": "Total de Vendas da Equipa",
+      "vsLastMonth": "vs mês passado",
+      "visitExecRate": "Taxa de Execução de Visitas",
+      "plannedVisits": "1.016 / 1.240 planeadas",
+      "avgTierAchieved": "Média de Nível Atingido"
+    },
+    "performanceTable": {
+      "teamPerf": "Desempenho da Equipa",
+      "viewAll": "Ver Tudo",
+      "representative": "Representante",
+      "dailyVisits": "Visitas Diárias",
+      "periodSales": "Vendas do Período",
+      "rank": "Classificação",
+      "tier1Area": "Área de Nível 1",
+      "northSector": "Setor Norte",
+      "cbdDistrict": "Distrito Central"
+    },
+    "teamLeaderboard": {
+      "title": "Tabela de Liderança da Equipa",
+      "seeAll": "Ver Todos"
+    },
+    "visitList": {
+      "nextVisits": "Próximas Visitas",
+      "remaining": "RESTANTES",
+      "today": "Hoje",
+      "mapView": "Vista de Mapa",
+      "status": {
+        "nextUp": "Próxima",
+        "scheduled": "Agendada"
+      }
+    },
+    "gamificationHero": {
+      "greeting": "Bom dia, {{userName}}!",
+      "rankPrefix": "Atualmente está no ",
+      "rankSuffix": " dos representantes este mês.",
+      "badges": {
+        "topCloser": "Melhor Closer",
+        "streak": "Série de 10 Dias",
+        "earlyBird": "Pássaro Madrugador"
+      },
+      "actions": {
+        "performance": "Ver Desempenho",
+        "briefing": "Briefing Diário"
+      }
+    },
+    "activityFeed": {
+      "title": "Atividade Recente",
+      "items": {
+        "orderConfirmed": "Novo Pedido Confirmado",
+        "signatureReceived": "Assinatura Recebida",
+        "visitCheckedIn": "Visita Iniciada",
+        "highVolumeOrder": "Pedido de Alto Volume"
+      }
+    },
+    "reviewOrderTable": {
+      "title": "Itens do Pedido",
+      "headers": {
+        "productName": "Nome do Produto",
+        "qty": "Qtd",
+        "tierDiscount": "Desconto de Nível",
+        "subtotal": "Subtotal"
+      }
+    },
+    "createAccount": {
+      "name": "Nome Completo",
+      "namePlaceholder": "John Doe",
+      "email": "Email",
+      "emailPlaceholder": "utilizador@pharma.com",
+      "password": "Senha",
+      "passwordPlaceholder": "••••",
+      "confirmPassword": "Confirmar Senha",
+      "confirmPasswordPlaceholder": "••••",
+      "createBtn": "Criar Conta",
+      "loadingBtn": "A criar...",
+      "successMsg": "Conta criada com sucesso!",
+      "errors": {
+        "nameRequired": "Nome é obrigatório",
+        "emailInvalid": "É necessário um email válido",
+        "passwordRequired": "A senha é obrigatória",
+        "passwordsDontMatch": "As senhas não coincidem"
+      }
+    },
+    "nestedForm": {
+      "editTitle": "Editar Registo"
+    },
+    "entityForm": {
+      "sections": {
+        "identification": "Identificação Base",
+        "identificationSubtitle": "Informação principal da entidade",
+        "address": "Morada da Entidade",
+        "addressSubtitle": "Detalhes de localização da entidade"
+      },
+      "fields": {
+        "eik": "EIK (Entity Identification Key)",
+        "type": "Tipo de Entidade",
+        "name": "Nome / Designação Social",
+        "abbreviation": "Abreviatura",
+        "vat": "NIF / VAT",
+        "vatOptional": "NIF / VAT (Opcional)",
+        "isActive": "Ativo / Inativo",
+        "logo": "Logótipo",
+        "parentId": "Entidade Pai / Master"
+      },
+      "placeholders": {
+        "parentId": "Selecione a entidade pai",
+        "eik": "Ex: 123456789",
+        "type": "Selecione o tipo de entidade",
+        "name": "Ex: Pharma Logistics SA",
+        "abbreviation": "Ex: PLS",
+        "vat": "Ex: 500123456"
+      },
+      "types": {
+        "lab": "Laboratório",
+        "ware": "Armazenista",
+        "pharm": "Farmácia"
+      },
+      "hints": {
+        "logoFormat": "PNG, JPG ou SVG (máx. 800x800px)"
+      },
+      "errors": {
+        "required": "Campo obrigatório",
+        "pattern": "Formato inválido",
+        "vatInvalid": "VAT inválido (algoritmo)",
+        "minLength": "Tamanho mínimo não atingido",
+        "maxLength": "Tamanho máximo excedido",
+        "invalid": "Valor inválido"
+      }
+    },
+    "addressForm": {
+      "address": "Morada",
+      "fields": {
+        "street": "Rua / Avenida",
+        "number": "Número",
+        "complement": "Complemento",
+        "neighborhood": "Bairro / Freguesia",
+        "city": "Cidade",
+        "state": "Distrito / Estado",
+        "postalCode": "Código Postal",
+        "country": "País",
+        "type": "Tipo de Morada"
+      },
+      "placeholders": {
+        "street": "Ex: Av. da Liberdade",
+        "number": "Ex: 123",
+        "complement": "Ex: 4º Esq",
+        "neighborhood": "Ex: Baixa",
+        "city": "Ex: Lisboa",
+        "state": "Ex: Lisboa",
+        "postalCode": "Ex: 1000-001",
+        "country": "Ex: Portugal",
+        "type": "Selecione o tipo"
+      },
+      "types": {
+        "main": "Principal",
+        "shipping": "Envio",
+        "billing": "Faturação",
+        "other": "Outro"
+      },
+      "errors": {
+        "required": "Campo obrigatório",
+        "invalid": "Valor inválido"
+      },
+      "addAddress": "Adicionar Morada"
+    },
+    "cdbForm": {
+      "title": "Formulário CDB",
+      "investedIncomeLabel": "Ingresso Investido",
+      "investedIncomePlaceholder": "Introduza o ingresso investido",
+      "termInMonthsLabel": "Prazo em Meses",
+      "termInMonthsPlaceholder": "Introduza o prazo em meses",
+      "calculateBtn": "Calcular",
+      "loadingBtn": "Calculando...",
+      "errors": {
+        "investedIncomeInvalid": "Por favor, introduza um valor de ingresso investido válido.",
+        "termInMonthsInvalid": "Por favor, introduza um prazo em meses válido."
+      }
+    }
+  },
+  "templates": {
+    "mainTemplate": {
+      "entities": "Entidades",
+      "regions": "Regiões",
+      "users": "Utilizadores"
+    },
+    "orderReview": {
+      "title": "Rever e Assinar Encomenda",
+      "orderIdLabel": "ID da Encomenda",
+      "generatedLabel": "Gerado",
+      "editOrder": "Editar Detalhes da Encomenda",
+      "summary": "Resumo da Encomenda",
+      "subtotal": "Subtotal",
+      "tierSavings": "Poupança de Nível",
+      "appliedAutomatically": "Aplicado automaticamente",
+      "processingFee": "Taxa de Processamento",
+      "finalTotal": "Total Final",
+      "disclaimer": "Inclui desconto de nível por volume e manuseamento clínico",
+      "confirmSend": "Confirmar e Enviar Encomenda",
+      "secureProcurement": "Aquisição Segura",
+      "securityDesc": "Protegido por criptografia clínica de ponta a ponta.",
+      "footerCopyright": "© 2023 Pharma Clean Logistics. Todos os direitos reservados."
+    },
+    "visitCheckout": {
+      "summaryTitle": "Resumo da Visita",
+      "gpsVerified": "GPS Verificado",
+      "duration": "Duração",
+      "resultTitle": "Resultado da Visita",
+      "evidenceTitle": "Evidência da Loja",
+      "uploadPhotoLabel": "Carregar Foto do Expositor",
+      "uploadPhotoSubtext": "Toque para capturar ou carregar evidências das prateleiras da loja",
+      "notesTitle": "Notas do Representante",
+      "notesPlaceholder": "Insira detalhes específicos sobre a reunião, solicitações de inventário ou insights competitivos...",
+      "completeVisit": "Concluir Visita",
+      "footerEntry": "Fim da Entrada de Rota Diária",
+      "options": {
+        "orderPlaced": "Encomenda Realizada",
+        "infoShared": "Informação Partilhada",
+        "followUp": "Acompanhamento",
+        "samples": "Amostras"
+      }
+    },
+    "login": {
+      "brandTitle": "Capacitando a Saúde com Inteligência de Dados.",
+      "brandSubtitle": "Gira a sua rede farmacêutica através da nossa plataforma segura e unificada.",
+      "feature1Title": "Gestão Unificada",
+      "feature1Desc": "Controle todas as operações num só lugar.",
+      "feature2Title": "Conformidade Primeiro",
+      "feature2Desc": "Ambiente auditado e rastreável.",
+      "welcome": "Bem-vindo de volta",
+      "subtitle": "Inicie sessão para gerir a sua organização.",
+      "helpText": "Precisa de ajuda?",
+      "contactSupport": "Contactar Suporte"
+    },
+    "createAccount": {
+      "brandTitle": "Junte-se à próxima geração de logística farmacêutica.",
+      "brandSubtitle": "Comece hoje mesmo a transformar a sua rede de saúde.",
+      "welcome": "Criar Conta",
+      "subtitle": "Preencha os seus dados para começar.",
+      "alreadyHaveAccount": "Já tem uma conta?",
+      "loginNow": "Inicie sessão aqui"
+    },
+    "productCatalog": {
+      "allProducts": "Todos os Produtos",
+      "antibiotics": "Antibióticos",
+      "analgesics": "Analgésicos",
+      "cardiovascular": "Cardiovascular",
+      "vaccines": "Vacinas"
+    },
+    "supervisorDashboard": {
+      "title": "Painel do Supervisor",
+      "date": "Sexta-feira, 27 de Outubro de 2023",
+      "exportReport": "Exportar Relatório",
+      "newCampaign": "Nova Campanha",
+      "visitsChart": "Gráfico de Visitas ao Longo do Tempo",
+      "salesVolumeChart": "Gráfico de Volume de Vendas por Rep"
+    },
+    "teamMemberReport": {
+      "message": "Mensagem",
+      "scheduleReview": "Agendar Revisão",
+      "visitHistoryPlaceholder": "Marcador da Tabela de Histórico de Visitas Recentes",
+      "territoryMapPlaceholder": "Marcador do Mapa do Território",
+      "footerCopyright": "© 2023 PharmaSales Pro. Sistema de Relatórios Confidencial.",
+      "privacyPolicy": "Política de Privacidade",
+      "termsOfUse": "Termos de Uso",
+      "support": "Suporte"
+    },
+    "visitInProgress": {
+      "subtitle": "Visita em Progresso",
+      "mapPlaceholder": "Área do Mapa Interativa",
+      "inRange": "AO ALCANCE",
+      "objectivesTitle": "Objetivos para esta Visita",
+      "completedCount": "{{completed}} de {{total}} concluído(s)",
+      "objective1": "Apresentar Nova Linha de Antibióticos",
+      "objective2": "Rever Acordo de Nível 2",
+      "objective3": "Recolher Feedback do Último Pedido"
+    },
+    "masterData": {
+      "footer": "Sistema de Gestão de Dados Mestre Trevvo",
+      "entitySubtitle": "Gerencie as informações base e de contacto das suas entidades parceiras.",
+      "geographySubtitle": "Gerencie regiões geográficas e hierarquias administrativas.",
+      "clusterSubtitle": "Gerencie clusters e grupos para operações direcionadas."
+    },
+    "cdbInvestment": {
+      "brandTitle": "CDB Resultados do Investimento",
+      "brandSubtitle": "Sua jornada para o sucesso financeiro começa aqui.",
+      "welcome": "Bem-vindo ao Portal de Investimento CDB",
+      "subtitle": "Gerencie seus investimentos e acompanhe seu progresso em um só lugar.",
+      "helpText": "Precisa de ajuda?",
+      "contactSupport": "Contactar Suporte",
+      "feature1Title": "Valor Bruto",
+      "feature2Title": "Valor Líquido"
+    }
+  },
+  "dashboard": {
+    "welcome": "Bem-vindo de volta"
+  }
+}

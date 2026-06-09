@@ -1,0 +1,19 @@
+{
+  "$schema": "../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../dist/design-system",
+  "lib": {
+    "entryFile": "components/src/index.ts"
+  },
+  "assets": [
+    {
+      "glob": "**/*",
+      "input": "tokens/assets/web",
+      "output": "tokens/web"
+    },
+    {
+      "glob": "**/*.json",
+      "input": "./i18n",
+      "output": "assets"
+    }
+  ]
+}

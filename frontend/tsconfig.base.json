@@ -1,0 +1,31 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2022",
+    "module": "esnext",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@trevvo/design-system": [
+        "design-system/src/index.ts"
+      ],
+      "@trevvo/design-system/components": [
+        "design-system/components/src/index.ts"
+      ],
+      "@trevvo/design-system/tokens": [
+        "design-system/tokens/src/index.ts"
+      ]
+    },
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}

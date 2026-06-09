@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CdbInvestment.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd5954e5678680a4cc4cfe50f073482b53475d99")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1b51227a655a463c23f390789bf8eaf3b1f61a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CdbInvestment.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CdbInvestment.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

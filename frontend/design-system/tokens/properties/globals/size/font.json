@@ -1,0 +1,66 @@
+{
+  "size": {
+    "font": {
+      "xsmall": {
+        "value": "8pt",
+        "comment": "the xsmall size of the font"
+      },
+      "small": {
+        "value": "10pt",
+        "comment": "the small size of the font"
+      },
+      "medium": {
+        "value": "12pt",
+        "comment": "the medium size of the font"
+      },
+      "large": {
+        "value": "14pt",
+        "comment": "the large size of the font"
+      },
+      "xlarge": {
+        "value": "18pt",
+        "comment": "the xl size of the font"
+      },
+      "2xlarge": {
+        "value": "24pt",
+        "comment": "the 2xl size of the font"
+      },
+      "3xlarge": {
+        "value": "32pt",
+        "comment": "the 3xl size of the font"
+      },
+      "4xlarge": {
+        "value": "40pt",
+        "comment": "the 4xl size of the font"
+      },
+      "5xlarge": {
+        "value": "48pt",
+        "comment": "the 5xl size of the font"
+      },
+      "6xlarge": {
+        "value": "56pt",
+        "comment": "the 6xl size of the font"
+      },
+      "7xlarge": {
+        "value": "64pt",
+        "comment": "the 7xl size of the font"
+      },
+      "8xlarge": {
+        "value": "72pt",
+        "comment": "the 8xl size of the font"
+      },
+      "9xlarge": {
+        "value": "80pt",
+        "comment": "the 9xl size of the font"
+      },
+      "10xlarge": {
+        "value": "88pt",
+        "comment": "the 10xl size of the font"
+      },
+      "base": {
+        "value": "{size.font.medium}",
+        "comment": "the base size of the font"
+      }
+    }
+  }
+}
