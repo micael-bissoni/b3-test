@@ -3,10 +3,10 @@
   "version": "0.3.2",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve --proxy-config src/proxy.conf.json",
+    "start": "npx nx serve --proxy-config src/proxy.conf.json",
     "build": "npm run build:tokens && nx build components",
     "package": "npm run build && cd dist/design-system && npm pack",
-    "test": "nx test",
+    "test": "npx nx test",
     "storybook": "npm run build:tokens && nx storybook design-system",
     "build:tokens": "node design-system/tokens/build.mjs",
     "commit": "cz"
