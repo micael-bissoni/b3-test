@@ -1,12 +1,19 @@
 # Compilar especificando o arquivo de solução moderno
+
 dotnet build CdbInvestment.slnx
 
 # Executar os testes da solução dentro da pasta: backend/CdbInvestment/CdbInvestment.API
+
 dotnet run
 
+# Executar os testes da solução dentro da pasta: backend/CdbInvestment/CdbInvestment.Tests
 
-# Executar os testes da solução dentro da pasta: backend/CdbInvestment
 dotnet test CdbInvestment.slnx
 
-# Executar os testes coletando a cobertura de código (DoD > 90%)
-dotnet test CdbInvestment.slnx /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+# Executar os testes coletando a cobertura de código (DoD > 90%) dentro da pasta: backend/CdbInvestment/CdbInvestment.Tests
+
+dotnet test /p:CollectCoverage=true /p:CoverletOutput=./coverage/ /p:CoverletOutputFormat=cobertura
+
+# Gerar o relatório de cobertura de código usando o ReportGenerator (instalado globalmente) dentro da pasta: backend/CdbInvestment
+
+~/.dotnet/tools/reportgenerator -reports:"coverage/coverage.cobertura.xml" -targetdir:"coverage" -reporttypes:Html

@@ -1,5 +1,6 @@
 
-using CdbInvestment.API.Models;
+using CdbInvestment.API.Dtos;
+using CdbInvestment.Domain.Dtos;
 using CdbInvestment.Domain.Services;
 using Microsoft.AspNetCore.Mvc;
 namespace CdbInvestment.API.Controllers
@@ -8,11 +9,6 @@ namespace CdbInvestment.API.Controllers
     [Route("api/[controller]")]
     public class CdbInvestimentApiController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-{
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
-
         private readonly ILogger<CdbInvestimentApiController> _logger;
 
         private readonly ICdbInvestmentService _cdbInvestmentService;
@@ -25,11 +21,24 @@ namespace CdbInvestment.API.Controllers
 
         [HttpPost]
         [Route("process-investment")]
-        public async Task<IActionResult> ProcessInvestment([FromBody] ProcessCdbInvestimentRequest request)
+        public async Task<IActionResult> ProcessInvestment([FromBody] RequestDto request)
         {
             _logger.LogInformation("Processing CDB investment...");
-            await _cdbInvestmentService.ProcessInvestment(request.InvestedAmount, request.TermInMonths);
-            return Ok("CDB investment processed successfully.");
+            try
+            {
+                var dto = new ProcessCdbInvestimentRequest
+                {
+                    InvestedAmount = request.InvestedIncome,
+                    TermInMonths = request.TermInMonths
+                };
+                var response = await _cdbInvestmentService.ProcessInvestment(dto);
+                return Ok(response);
+            }
+            catch (System.Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while processing the CDB investment.");
+                return BadRequest("An error occurred while processing the CDB investment.");
+            }
         }
     }
 }

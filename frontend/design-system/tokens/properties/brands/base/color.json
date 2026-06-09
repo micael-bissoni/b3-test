@@ -1,0 +1,16 @@
+{
+  "color": {
+    "primary": {
+      "value": "#010413",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#234a70",
+      "type": "color"
+    },
+    "tertiary": {
+      "value": "#f958a8",
+      "type": "color"
+    }
+  }
+}

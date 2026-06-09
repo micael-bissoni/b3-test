@@ -1,0 +1,639 @@
+{
+  "common": {
+    "searchPlaceholder": "Search...",
+    "notifications": "Notifications",
+    "settings": "Settings",
+    "pdf": "PDF",
+    "add": "Add",
+    "empty": "No results",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "support": "Support",
+    "export": "Export",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "back": "Back",
+    "roles": {
+      "seniorRep": "Senior Rep",
+      "chiefPharmacist": "Chief Pharmacist",
+      "regionalManager": "Regional Manager",
+      "supervisor": "Supervisor",
+      "pharmacist": "Pharmacist",
+      "assistant": "Assistant",
+      "administrator": "Administrator"
+    },
+    "units": "units",
+    "discount": {
+      "tier1": "Tier 1 (5% Off)",
+      "tier2": "Tier 2 (15% Off)",
+      "tier3": "Tier 3 (20% Off)"
+    },
+    "optional": "Optional",
+    "remove": "Remove",
+    "itemSelected": "Item Selected",
+    "itemsSelected": "Items Selected",
+    "appName": "TREVVO",
+    "guest": "Guest",
+    "noData": "No data found.",
+    "navigation": {
+      "dashboard": "Dashboard",
+      "hierarchy": "Hierarchy",
+      "profiles": "Profiles",
+      "team": "Team",
+      "compliance": "Compliance"
+    }
+  },
+  "styleguide": {
+    "title": "Style guide",
+    "subtitle": "Foundations & Brand Identity",
+    "font": {
+      "title": "Font",
+      "descriptionFoundations": "Our typography is based on variables defined in the system. The headers font uses the configured headers family, blending contemporary aesthetic with strong legibility. The base font ensures accessibility and elegant reading across all UI elements fitting seamlessly into both bold and minimalist design systems."
+    },
+    "brand": {
+      "title": "Brand Identity",
+      "description": "Our brand identity is represented by the primary logo, which is dynamically loaded via design tokens. This ensures brand consistency across different platforms and themes while allowing for easy maintenance and brand updates."
+    },
+    "headline": {
+      "title": "Headlines",
+      "h1": "Headline 1",
+      "h2": "Headline 2",
+      "body": "Body",
+      "captions": "Captions"
+    },
+    "typography": {
+      "bold": "Bold",
+      "semiBold": "Semi Bold",
+      "medium": "Medium",
+      "regular": "Regular",
+      "labels": {
+        "large": "Large",
+        "medium": "Medium",
+        "base": "Base",
+        "small": "Small"
+      }
+    },
+    "color": {
+      "title": "Color system",
+      "descriptionFoundations": "The color system uses a balanced combination of our brand tokens including primary and secondary intents. It features a progression of base grays, creating a calm, trustworthy visual identity. These are paired with a grayscale that ranges from deep black to light gray, offering strong contrast for typography and interface elements."
+    },
+    "colors": {
+      "brand": "Brand",
+      "status": "Status",
+      "neutrals": "Neutrals",
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "tertiary": "Tertiary",
+      "success": "Success",
+      "warning": "Warning",
+      "danger": "Danger",
+      "info": "Info",
+      "white": "White",
+      "black": "Black",
+      "grayLight": "Gray Light",
+      "grayMedium": "Gray Medium",
+      "grayDark": "Gray Dark"
+    },
+    "localization": {
+      "title": "i18n & Currency",
+      "currencyTitle": "Currency Preview",
+      "currencyDesc": "Standard CurrencyPipe using",
+      "dateTitle": "Date Preview",
+      "dateDesc": "Localization using standard DatePipe"
+    }
+  },
+  "atoms": {
+    "avatar": {
+      "alt": "User avatar"
+    },
+    "signaturePad": {
+      "placeholder": "Sign here",
+      "authorization": "Authorization required"
+    },
+    "tierBadge": {
+      "tier": "Tier",
+      "gold": "Gold",
+      "silver": "Silver",
+      "bronze": "Bronze",
+      "platinum": "Platinum"
+    },
+    "datagridCellDesignation": {
+      "placeholder": "Designation Name"
+    },
+    "datagridCellLocation": {
+      "placeholder": "Country"
+    },
+    "datagridCellStatus": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "pending": "Pending",
+      "rejected": "Rejected",
+      "canceled": "Canceled",
+      "error": "Error"
+    },
+    "select": {
+      "placeholder": "Select a language",
+      "languages": {
+        "en": "English",
+        "pt": "Portuguese",
+        "es": "Spanish",
+        "fr": "French"
+      }
+    }
+  },
+  "molecules": {
+    "visitItem": {
+      "contactPerson": "Contact Person",
+      "directions": "Directions",
+      "checkIn": "Check In",
+      "waiting": "Waiting",
+      "status": {
+        "nextUp": "Next Up",
+        "scheduled": "Scheduled",
+        "completed": "Completed"
+      }
+    },
+    "productCard": {
+      "perUnit": "per unit",
+      "add": "Add"
+    },
+    "bottomActionsNav": {
+      "checkoutVisit": "Check-out Visit",
+      "nav": {
+        "home": "Home",
+        "order": "Order",
+        "visit": "Visit",
+        "dashboard": "Dashboard",
+        "profile": "Profile"
+      }
+    },
+    "categoryBreakdown": {
+      "salesDistribution": "Sales Distribution",
+      "categories": {
+        "cardiology": "Cardiology",
+        "neurology": "Neurology",
+        "generalMed": "General Med"
+      }
+    },
+    "floatingActionBar": {
+      "totalOrderValue": "Total Order Value",
+      "estimatedDelivery": "Estimated Delivery",
+      "saveDraft": "Save Draft",
+      "reviewOrder": "Review Order"
+    },
+    "kpiCard": {
+      "target": "Target"
+    },
+    "leaderboardItem": {
+      "you": "You",
+      "pts": "pts"
+    },
+    "navigation": {
+      "home": "Home",
+      "orders": "Orders",
+      "products": "Products",
+      "settings": "Settings"
+    },
+    "profileSummary": {
+      "employeeId": "Employee ID",
+      "topPerformer": "Top 5% Performer",
+      "districtRank": "Current District Rank",
+      "online": "Online"
+    },
+    "tierProgress": {
+      "addAmount": "Add",
+      "toUnlock": "to unlock",
+      "discounts": "discounts"
+    },
+    "timerCard": {
+      "visitInProgress": "Visit in progress",
+      "totalDuration": "Total Duration",
+      "pause": "Pause",
+      "addNote": "Add Note"
+    },
+    "toast": {
+      "title": {
+        "success": "Success",
+        "error": "Error",
+        "warning": "Warning",
+        "info": "Information",
+        "default": "Notification"
+      },
+      "messages": {
+        "successMsg": "Your changes have been saved successfully.",
+        "errorMsg": "Failed to save changes. Please try again.",
+        "warningMsg": "Your subscription is about to expire.",
+        "infoMsg": "New updates are available for your application."
+      }
+    },
+    "uploadSlot": {
+      "label": "Upload Evidence",
+      "subtext": "Tap to upload photo or document",
+      "activeLabel": "Drop Here",
+      "activeSubtext": "Release to upload"
+    },
+    "signatureCollector": {
+      "title": "Digital Signature",
+      "clear": "Clear Area",
+      "disclaimer": "By signing below, you authorize the procurement of the items listed above and confirm that the pricing and tier discounts are accurate to your account agreement.",
+      "license": "License",
+      "timestamp": "Timestamp"
+    },
+    "dataGridFilter": {
+      "title": "Organization Filters",
+      "clear": "Clear",
+      "confirm": "Confirm",
+      "regionsLabel": "Active Regions",
+      "statusLabel": "Status",
+      "statusOptions": {
+        "all": "All",
+        "active": "Active",
+        "pending": "Pending"
+      }
+    },
+    "inputPassword": {
+      "showPassword": "Show password",
+      "hidePassword": "Hide password"
+    },
+    "fileUpload": {
+      "label": "Upload file",
+      "drop": "Drop to upload",
+      "change": "Change file",
+      "remove": "Remove file"
+    }
+  },
+  "organisms": {
+    "dataGrid": {
+      "title": "Active Campaigns",
+      "subtitle": "Operational management of the platform",
+      "placeholder": "Search campaigns...",
+      "pagination": {
+        "range": "{{start}} - {{end}} of {{total}}",
+        "empty": "0 - 0 of 0"
+      },
+      "columns": {
+        "entityName": "Entity Name",
+        "masterKey": "Master Key (EIK)",
+        "category": "Category",
+        "status": "Status",
+        "unitName": "Unit Name",
+        "eik": "EIK",
+        "type": "Type"
+      },
+      "nesting": {
+        "title": "Nesting"
+      }
+    },
+    "login": {
+      "email": "Email",
+      "emailPlaceholder": "user@pharma.com",
+      "password": "Password",
+      "passwordPlaceholder": "••••",
+      "forgotPassword": "Forgot it?",
+      "loginBtn": "Sign In",
+      "loadingBtn": "Sign in...",
+      "errors": {
+        "emailInvalid": "Valid email is required",
+        "passwordRequired": "Password is required"
+      }
+    },
+    "cartSidebar": {
+      "currentOrder": "Current Order",
+      "pharmacyId": "Pharmacy ID",
+      "emptyCart": "Your cart is empty",
+      "subtotal": "Subtotal",
+      "taxHandling": "Tax & Handling",
+      "totalEst": "Total Est."
+    },
+    "dailyProgress": {
+      "title": "Daily Progress",
+      "live": "LIVE",
+      "visitsDone": "Visits Done",
+      "targetCompletion": "Target Completion",
+      "footerMessageDefault": "4 more visits to hit your daily bonus!",
+      "footerMessageCompleted": "Daily goal achieved! Time to relax."
+    },
+    "sidebar": {
+      "portalName": "Supervisor Portal",
+      "mainContentArea": "Main Content Area",
+      "description": "The sidebar is sticky and collapses/scrolls correctly.",
+      "collapse": "Collapse",
+      "links": {
+        "dashboard": "Dashboard",
+        "teamReports": "Team Reports",
+        "salesAnalysis": "Sales Analysis",
+        "productTiers": "Product Tiers",
+        "settings": "Settings"
+      }
+    },
+    "insightsPanel": {
+      "coachingOpps": "Coaching Opportunities",
+      "observationLabel": "Observation",
+      "observationText": "Average order value is slightly below district average despite high visit execution.",
+      "priorityActionLabel": "Priority Action",
+      "priorityActionText": "Follow up on missed St. Jude Hospital visit (Oct 23). High priority account.",
+      "supervisorNotesTitle": "Private Supervisor Notes",
+      "addNotesPlaceholder": "Add coaching notes here...",
+      "lastEdited": "Last edited",
+      "saveNotes": "Save Notes",
+      "defaultNotes": "Focus on increasing order size next week.",
+      "defaultLastEdited": "Today at 10:45 AM"
+    },
+    "kpiSection": {
+      "totalTeamSales": "Total Team Sales",
+      "vsLastMonth": "vs last month",
+      "visitExecRate": "Visit Execution Rate",
+      "plannedVisits": "1,016 / 1,240 planned",
+      "avgTierAchieved": "Avg. Tier Achievement"
+    },
+    "performanceTable": {
+      "teamPerf": "Team Performance",
+      "viewAll": "View All",
+      "representative": "Representative",
+      "dailyVisits": "Daily Visits",
+      "periodSales": "Period Sales",
+      "rank": "Rank",
+      "tier1Area": "Tier 1 Area",
+      "northSector": "North Sector",
+      "cbdDistrict": "CBD District"
+    },
+    "teamLeaderboard": {
+      "title": "Team Leaderboard",
+      "seeAll": "See All"
+    },
+    "visitList": {
+      "nextVisits": "Next Visits",
+      "remaining": "REMAINING",
+      "today": "Today",
+      "mapView": "Map View",
+      "status": {
+        "nextUp": "Next Up",
+        "scheduled": "Scheduled"
+      }
+    },
+    "gamificationHero": {
+      "greeting": "Good morning, {{userName}}!",
+      "rankPrefix": "You're currently in the ",
+      "rankSuffix": " of representatives this month.",
+      "badges": {
+        "topCloser": "Top Closer",
+        "streak": "10-Day Streak",
+        "earlyBird": "Early Bird"
+      },
+      "actions": {
+        "performance": "View Performance",
+        "briefing": "Daily Briefing"
+      }
+    },
+    "activityFeed": {
+      "title": "Recent Activity",
+      "items": {
+        "orderConfirmed": "New Order Confirmed",
+        "signatureReceived": "Signature Received",
+        "visitCheckedIn": "Visit Checked-in",
+        "highVolumeOrder": "High Volume Order"
+      }
+    },
+    "reviewOrderTable": {
+      "title": "Order Items",
+      "headers": {
+        "productName": "Product Name",
+        "qty": "Qty",
+        "tierDiscount": "Tier Discount",
+        "subtotal": "Subtotal"
+      }
+    },
+    "createAccount": {
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email",
+      "emailPlaceholder": "user@pharma.com",
+      "password": "Password",
+      "passwordPlaceholder": "••••",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "••••",
+      "createBtn": "Create Account",
+      "loadingBtn": "Creating...",
+      "successMsg": "Account created successfully!",
+      "errors": {
+        "nameRequired": "Name is required",
+        "emailInvalid": "Valid email is required",
+        "passwordRequired": "Password is required",
+        "passwordsDontMatch": "Passwords do not match"
+      }
+    },
+    "nestedForm": {
+      "editTitle": "Edit Record"
+    },
+    "entityForm": {
+      "sections": {
+        "identification": "Base Identification",
+        "identificationSubtitle": "Main entity information",
+        "address": "Entity Address",
+        "addressSubtitle": "Location details for the entity"
+      },
+      "fields": {
+        "eik": "EIK (Entity Identification Key)",
+        "type": "Entity Type",
+        "name": "Name / Social Designation",
+        "abbreviation": "Abbreviation",
+        "vat": "VAT Number",
+        "vatOptional": "VAT Number (Optional)",
+        "isActive": "Active / Inactive",
+        "logo": "Logo",
+        "parentId": "Parent / Master Entity"
+      },
+      "placeholders": {
+        "parentId": "Select parent entity",
+        "eik": "Ex: 123456789",
+        "type": "Select entity type",
+        "name": "Ex: Pharma Logistics SA",
+        "abbreviation": "Ex: PLS",
+        "vat": "Ex: PT500123456"
+      },
+      "types": {
+        "lab": "Laboratory",
+        "ware": "Wholesaler",
+        "pharm": "Pharmacy"
+      },
+      "hints": {
+        "logoFormat": "PNG, JPG or SVG (max. 800x800px)"
+      },
+      "errors": {
+        "required": "Required field",
+        "pattern": "Invalid format",
+        "vatInvalid": "Invalid VAT number",
+        "minLength": "Minimum length not met",
+        "maxLength": "Maximum length exceeded",
+        "invalid": "Invalid value"
+      }
+    },
+    "addressForm": {
+      "address": "Address",
+      "fields": {
+        "street": "Street",
+        "number": "Number",
+        "complement": "Complement",
+        "neighborhood": "Neighborhood",
+        "city": "City",
+        "state": "State",
+        "postalCode": "Postal Code",
+        "country": "Country",
+        "type": "Address Type"
+      },
+      "placeholders": {
+        "street": "Ex: Av. da Liberdade",
+        "number": "Ex: 123",
+        "complement": "Ex: Suite 404",
+        "neighborhood": "Ex: Baixa",
+        "city": "Ex: Lisboa",
+        "state": "Ex: Lisboa",
+        "postalCode": "Ex: 1000-001",
+        "country": "Ex: Portugal",
+        "type": "Select type"
+      },
+      "types": {
+        "main": "Main",
+        "shipping": "Shipping",
+        "billing": "Billing",
+        "other": "Other"
+      },
+      "errors": {
+        "required": "Required field",
+        "invalid": "Invalid value"
+      },
+      "addAddress": "Add Address"
+    },
+    "cdbForm": {
+      "title": "CDB Form",
+      "investedIncomeLabel": "Invested Income",
+      "investedIncomePlaceholder": "Enter invested income amount",
+      "termInMonthsLabel": "Term in Months",
+      "termInMonthsPlaceholder": "Enter term in months",
+      "calculateBtn": "Calculate",
+      "loadingBtn": "Calculating...",
+      "errors": {
+        "investedIncomeInvalid": "Please enter a valid invested income amount.",
+        "termInMonthsInvalid": "Please enter a valid term in months."
+      }
+    }
+  },
+  "templates": {
+    "mainTemplate": {
+      "entities": "Entities",
+      "regions": "Regions",
+      "users": "Users"
+    },
+    "orderReview": {
+      "title": "Review & Sign Order",
+      "orderIdLabel": "Order ID",
+      "generatedLabel": "Generated",
+      "editOrder": "Edit Order Details",
+      "summary": "Order Summary",
+      "subtotal": "Subtotal",
+      "tierSavings": "Tier Savings",
+      "appliedAutomatically": "Applied automatically",
+      "processingFee": "Processing Fee",
+      "finalTotal": "Final Total",
+      "disclaimer": "Includes bulk tier discount and clinical handling",
+      "confirmSend": "Confirm & Send Order",
+      "secureProcurement": "Secure Procurement",
+      "securityDesc": "Protected by end-to-end clinical encryption.",
+      "footerCopyright": "© 2023 Pharma Clean Logistics. All rights reserved."
+    },
+    "visitCheckout": {
+      "summaryTitle": "Visit Summary",
+      "gpsVerified": "GPS Verified",
+      "duration": "Duration",
+      "resultTitle": "Visit Result",
+      "evidenceTitle": "Store Evidence",
+      "uploadPhotoLabel": "Upload Display Photo",
+      "uploadPhotoSubtext": "Tap to capture or upload store shelf evidence",
+      "notesTitle": "Representative Notes",
+      "notesPlaceholder": "Enter specific details about the meeting, inventory requests, or competitive insights...",
+      "completeVisit": "Complete Visit",
+      "footerEntry": "End of Daily Routing Entry",
+      "options": {
+        "orderPlaced": "Order Placed",
+        "infoShared": "Info Shared",
+        "followUp": "Follow-up",
+        "samples": "Samples"
+      }
+    },
+    "login": {
+      "brandTitle": "Empowering Healthcare with Data Intelligence.",
+      "brandSubtitle": "Manage your pharma network through our secure and unified platform.",
+      "feature1Title": "Unified Management",
+      "feature1Desc": "Control all operations in one place.",
+      "feature2Title": "Compliance First",
+      "feature2Desc": "Audited and traceable environment.",
+      "welcome": "Welcome back",
+      "subtitle": "Sign in to manage your organization.",
+      "helpText": "Need help?",
+      "contactSupport": "Contact Support"
+    },
+    "createAccount": {
+      "brandTitle": "Joining the next generation of pharma logistics.",
+      "brandSubtitle": "Start transforming your healthcare network today.",
+      "welcome": "Create Account",
+      "subtitle": "Fill in your details to get started.",
+      "alreadyHaveAccount": "Already have an account?",
+      "loginNow": "Sign in here"
+    },
+    "productCatalog": {
+      "allProducts": "All Products",
+      "antibiotics": "Antibiotics",
+      "analgesics": "Analgesics",
+      "cardiovascular": "Cardiovascular",
+      "vaccines": "Vaccines"
+    },
+    "supervisorDashboard": {
+      "title": "Supervisor Dashboard",
+      "date": "Friday, October 27, 2023",
+      "exportReport": "Export Report",
+      "newCampaign": "New Campaign",
+      "visitsChart": "Visits Over Time Chart",
+      "salesVolumeChart": "Sales Volume by Rep Chart"
+    },
+    "teamMemberReport": {
+      "message": "Message",
+      "scheduleReview": "Schedule Review",
+      "visitHistoryPlaceholder": "Recent Visit History Table Placeholder",
+      "territoryMapPlaceholder": "Territory Map Placeholder",
+      "footerCopyright": "© 2023 PharmaSales Pro. Confidential Reporting System.",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfUse": "Terms of Use",
+      "support": "Support"
+    },
+    "visitInProgress": {
+      "subtitle": "Visit in Progress",
+      "mapPlaceholder": "Interactive Map Area",
+      "inRange": "IN RANGE",
+      "objectivesTitle": "Objectives for this Visit",
+      "completedCount": "{{completed}} of {{total}} complete",
+      "objective1": "Present New Antibiotic Line",
+      "objective2": "Review Tier 2 Agreement",
+      "objective3": "Collect Feedback on Last Order"
+    },
+    "masterData": {
+      "footer": "Trevvo Master Data Management System",
+      "entitySubtitle": "Manage base information and contact details for your partner entities.",
+      "geographySubtitle": "Manage geographic regions and administrative hierarchies.",
+      "clusterSubtitle": "Manage clusters and groups for targeted operations."
+    },
+    "cdbInvestment": {
+      "brandTitle": "CDB Investment Results",
+      "brandSubtitle": "Your journey to financial success starts here.",
+      "welcome": "Welcome to the CDB Investment Portal",
+      "subtitle": "Manage your investments and track your progress in one place.",
+      "helpText": "Need assistance?",
+      "contactSupport": "Contact Support",
+      "feature1Title": "Gross Value",
+      "feature2Title": "Net Value"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back"
+  }
+}

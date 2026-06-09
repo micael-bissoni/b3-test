@@ -1,0 +1,163 @@
+<div class="max-w-5xl mx-auto p-8 font-base text-base bg-white">
+  <div class="mb-12 border-b border-gray-light pb-8 flex justify-between items-end">
+    <div>
+      <h1 class="font-headers text-4xl mb-4 font-bold text-black">{{ 'styleguide.title' | translate }}</h1>
+      <p class="text-gray-medium">{{ 'styleguide.subtitle' | translate }}</p>
+    </div>
+    <div class="w-32 h-12 bg-contain bg-no-repeat bg-right" [style.backgroundImage]="'var(--icon-logo)'"></div>
+  </div>
+
+  <!-- Brand Identity Section -->
+  <div class="flex flex-col md:flex-row gap-12 mb-16 border-b border-gray-light pb-12">
+    <div class="w-full md:w-1/4">
+      <h2 class="text-xl font-semibold text-primary">{{ 'styleguide.brand.title' | translate }}</h2>
+    </div>
+    <div class="w-full md:w-1/4 flex flex-col items-center justify-center gap-4">
+      <div class="w-48 h-24 bg-contain bg-no-repeat bg-center border border-gray-light rounded-lg p-4 shadow-sm"
+        [style.backgroundImage]="'var(--icon-logo)'"></div>
+      <span class="text-xs text-gray-medium font-mono">--icon-logo</span>
+    </div>
+    <div class="w-full md:w-2/4">
+      <p class="text-gray-dark leading-relaxed">
+        {{ 'styleguide.brand.description' | translate }}
+      </p>
+    </div>
+  </div>
+
+  <!-- Font Section -->
+  <div class="flex flex-col md:flex-row gap-12 mb-16 border-b border-gray-light pb-12">
+    <div class="w-full md:w-1/4">
+      <h2 class="text-xl font-semibold text-primary">{{ 'styleguide.font.title' | translate }}</h2>
+    </div>
+    <div class="w-full md:w-1/4 flex items-center justify-center">
+      <div class="text-4xl leading-none font-headers ">
+        <span
+          class="text-primary font-light hover:text-primary/50 transition-transform duration-300 ease-in-out">A</span>
+        <span class="text-secondary hover:text-primary/50 transition-transform duration-300 ease-in-out">a</span>
+        <span class="text-tertiary hover:text-primary/50 transition-transform duration-300 ease-in-out">.</span>
+      </div>
+    </div>
+    <div class="w-full md:w-2/4">
+      <p class="text-gray-dark leading-relaxed">
+        {{ 'styleguide.font.descriptionFoundations' | translate }}
+      </p>
+    </div>
+  </div>
+
+  <!-- Headlines Section -->
+  <div class="flex flex-col md:flex-row gap-12 mb-16 border-b border-gray-light pb-12">
+    <div class="w-full md:w-1/4">
+      <h2 class="text-xl font-semibold text-primary">{{ 'styleguide.headline.title' | translate }}</h2>
+    </div>
+    <div class="w-full md:w-1/3 flex flex-col gap-6">
+      <div>
+        <div class="font-headers text-4xl font-bold text-black mb-1">{{ 'styleguide.headline.h1' | translate }}</div>
+        <div class="text-sm text-gray-medium">{{ 'styleguide.typography.bold' | translate }}, {{ 'styleguide.typography.labels.large' | translate }}</div>
+      </div>
+      <div>
+        <div class="font-headers text-3xl font-semibold text-black mb-1">{{ 'styleguide.headline.h2' | translate }}</div>
+        <div class="text-sm text-gray-medium">{{ 'styleguide.typography.semiBold' | translate }}, {{ 'styleguide.typography.labels.medium' | translate }}</div>
+      </div>
+      <div>
+        <div class="font-base text-lg font-medium text-black mb-1">{{ 'styleguide.headline.body' | translate }}</div>
+        <div class="text-sm text-gray-medium">{{ 'styleguide.typography.medium' | translate }}, {{ 'styleguide.typography.labels.base' | translate }}</div>
+      </div>
+      <div>
+        <div class="font-base text-sm text-black mb-1">{{ 'styleguide.headline.captions' | translate }}</div>
+        <div class="text-sm text-gray-medium">{{ 'styleguide.typography.regular' | translate }}, {{ 'styleguide.typography.labels.small' | translate }}</div>
+      </div>
+    </div>
+    <div class="w-full md:w-5/12 relative min-h-[250px] hidden md:block">
+      <!-- Decorative geometric shapes similar to image -->
+      <div
+        class="absolute top-0 right-10 w-32 h-24 bg-primary rounded-xl transform rotate-12 hover:rotate-0 hover:scale-110 transition-transform duration-300 ease-in-out opacity-80 shadow-lg">
+      </div>
+      <div
+        class="absolute top-16 right-32 w-32 h-20 bg-tertiary rounded-xl transform -rotate-12 hover:rotate-0 hover:scale-110 transition-transform duration-300 ease-in-out opacity-80 shadow-lg">
+      </div>
+      <div
+        class="absolute bottom-10 right-20 w-32 h-20 bg-secondary rounded-xl transform rotate-6 hover:rotate-0 hover:scale-110 transition-transform duration-300 ease-in-out shadow-lg">
+      </div>
+    </div>
+  </div>
+
+  <!-- Color System Section -->
+  <div class="flex flex-col md:flex-row gap-12 mb-16 border-b border-gray-light pb-12">
+    <div class="w-full md:w-1/4">
+      <h2 class="text-xl font-semibold text-primary">{{ 'styleguide.color.title' | translate }}</h2>
+    </div>
+    <div class="w-full md:w-1/4 flex items-center justify-center">
+      <div class="relative w-32 h-32 rounded-full bg-black border-4 border-gray-light flex items-center justify-center">
+        <div class="w-24 h-24 rounded-full bg-primary flex items-center justify-center">
+          <div class="w-16 h-16 rounded-full bg-secondary flex items-center justify-center">
+            <div class="w-8 h-8 rounded-full bg-tertiary flex items-center justify-center">
+              <div class="w-4 h-4 rounded-full bg-white"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full md:w-2/4">
+      <p class="text-gray-dark leading-relaxed">
+        {{ 'styleguide.color.descriptionFoundations' | translate }}
+      </p>
+    </div>
+  </div>
+
+  <!-- Colors -->
+  @for (section of colorsSections; track section.name) {
+  <div class="flex flex-col md:flex-row gap-12 mb-16 border-b border-gray-light pb-12">
+    <div class="w-full md:w-1/4">
+      <h2 class="text-xl font-semibold text-primary">{{ section.name | translate }}</h2>
+    </div>
+    <div class="w-full md:w-3/4 flex flex-wrap gap-4">
+      @for (color of section.colors; track color.name) {
+      <div class="flex flex-col w-20">
+        <div class="w-20 h-20 rounded-lg shadow-sm border-2 border-gray-light mb-2" [ngClass]="color.value"></div>
+        <span class="text-sm font-semibold text-black">{{ color.name | translate }}</span>
+      </div>
+      }
+    </div>
+  </div>
+  }
+
+  <div class="h-px bg-on-surface-primary/10"></div>
+
+  <!-- Localization Section -->
+  <section class="grid grid-cols-1 md:grid-cols-[150px_1fr] gap-8 items-start">
+    <h2 class="text-xl font-bold">
+      {{ 'styleguide.localization.title' | translate }}
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-12">
+      <div class="p-6 rounded-3xl border border-on-surface-primary/10 space-y-4 shadow-sm bg-surface-secondary">
+        <h3 class="text-sm font-bold flex items-center gap-2">
+          <ds-icon intent="primary" name="payments"></ds-icon>
+          {{ 'styleguide.localization.currencyTitle' | translate }}
+        </h3>
+        <div class="space-y-2">
+          <p class="text-xl font-display font-bold text-on-surface-primary">
+            {{ 1250 | DScurrency }}
+          </p>
+          <p class="text-sm text-on-surface-secondary">
+            {{ 'styleguide.localization.currencyDesc' | translate }} [{{ currency }}]
+          </p>
+        </div>
+      </div>
+
+      <div class="p-6 rounded-3xl border border-on-surface-primary/10 space-y-4 shadow-sm bg-surface-secondary">
+        <h3 class="text-sm font-bold flex items-center gap-2">
+          <ds-icon intent="primary" name="calendar-today"></ds-icon>
+          {{ 'styleguide.localization.dateTitle' | translate }}
+        </h3>
+        <div class="space-y-2">
+          <p class="text-xl font-display font-bold text-on-surface-primary">
+            {{ today | DSdate: 'longDate' }}
+          </p>
+          <p class="text-sm text-on-surface-secondary">
+            {{ 'styleguide.localization.dateDesc' | translate }} [{{ locale }}]
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

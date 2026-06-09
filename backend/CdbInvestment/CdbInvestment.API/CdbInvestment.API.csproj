@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CdbInvestment.Domain\CdbInvestment.Domain.csproj" />
-    <ProjectReference Include="..\CdbInvestment.Infrastructure\CdbInvestment.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
