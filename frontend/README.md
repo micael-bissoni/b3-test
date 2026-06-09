@@ -1,4 +1,4 @@
-# 🎨 Trevvo Design System
+# 🎨 B3 Design System
 
 A state-of-the-art, multi-brand, multi-platform design system built with **Nx**, **Angular**, **Tailwind CSS**, and **Style Dictionary**.
 
@@ -53,11 +53,17 @@ npm run build:tokens
 npm run storybook
 ```
 
-### 3. Generate New Component
+### 4. Run App
+
+```sh
+npm start
+```
+
+### 5. Generate New Component
 
 Use the **Component Factory** skill for step-by-step guidance.
 
-### 4. Generate NPM Package
+### 6. Generate NPM Package
 
 To build the design tokens, build the library, and generate an installable npm package (`.tgz`), run:
 
