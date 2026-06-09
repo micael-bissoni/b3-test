@@ -15,9 +15,9 @@
   --color-warning: #f0ad4e;
   --color-danger: #bb2124;
   --color-info: #5bc0de;
-  --color-primary: #010413;
-  --color-secondary: #234a70;
-  --color-tertiary: #f958a8;
+  --color-primary: #002c63;
+  --color-secondary: #0a0349;
+  --color-tertiary: #f5ba94;
   --color-on-primary: #ffffff;
   --color-on-secondary: #ffffff;
   --color-on-tertiary: #ffffff;
@@ -43,7 +43,7 @@
   --size-font-9xlarge: 80pt; /** the 9xl size of the font */
   --size-font-10xlarge: 88pt; /** the 10xl size of the font */
   --size-font-base: 12pt; /** the base size of the font */
-  --icon-logo: url('/tokens/web/base/assets/logo.svg');
+  --icon-logo: url('/tokens/web/base/assets/logo.png');
   --icon-content-copy: url('/tokens/web/base/assets/icons/content-copy.svg');
   --icon-content-paste: url('/tokens/web/base/assets/icons/content-paste.svg');
   --icon-check-circle: url('/tokens/web/base/assets/icons/check-circle.svg');

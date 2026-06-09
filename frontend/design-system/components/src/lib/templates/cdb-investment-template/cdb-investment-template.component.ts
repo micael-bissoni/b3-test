@@ -8,6 +8,7 @@ import { DSCurrencyPipe } from '../../utils/pipes/dynamic-currency.pipe';
 import { Store } from '@ngrx/store';
 import { selectI18nState } from '@trevvo/design-system';
 import { map } from 'rxjs';
+import { ThemeService } from '@trevvo/design-system/tokens';
 
 interface InvestmentRequest {
   investedIncome: number;
@@ -35,11 +36,11 @@ interface InvestmentResponse {
              <div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
                  <ds-icon name="management" class="text-white w-5 h-5"></ds-icon>
              </div>
-             <h2 class="text-xl font-headers font-bold tracking-tight text-gray-dark italic">Trevvo</h2>
+             <h2 class="text-xl font-headers font-bold tracking-tight text-gray-dark italic">B3</h2>
           </div>
 
           <div class="mb-14 text-left">
-            <h2 class="text-4xl lg:text-5xl font-headers font-bold text-gray-dark mb-4 tracking-tight">{{ 'templates.cdbInvestment.welcome' | translate }}</h2>
+            <h2 class="text-3xl lg:text-4xl font-headers font-bold text-gray-dark mb-4 tracking-tight">{{ 'templates.cdbInvestment.welcome' | translate }}</h2>
             <p class="text-gray-medium font-base text-lg opacity-80">{{ 'templates.cdbInvestment.subtitle' | translate }}</p>
           </div>
 
@@ -60,11 +61,11 @@ interface InvestmentResponse {
         </div>
       </section>
       <!-- Results Section (Right) -->
-      <section class="hidden md:flex md:w-[45%] bg-primary p-16 lg:p-24 flex-col justify-between items-start text-on-primary relative overflow-hidden">
+      <section class="w-full md:w-[55%] flex flex-col justify-center items-center p-8 md:p-16 lg:p-24 relative text-on-primary bg-primary">
         <!-- Results Content -->
         <div class="relative z-10 w-full animate-in fade-in slide-in-from-left duration-1000">
           <div class="mb-16">
-            <h1 class="text-4xl lg:text-6xl font-headers font-bold leading-[1.1] max-w-lg mb-8 tracking-tight">
+            <h1 class="text-xl font-headers font-bold leading-[1.1] max-w-lg mb-8 tracking-tight">
               {{ 'templates.cdbInvestment.brandTitle' | translate }}
             </h1>
             <p class="text-lg lg:text-xl font-light opacity-60 max-w-sm font-base leading-relaxed">
@@ -97,8 +98,9 @@ interface InvestmentResponse {
          </div>
 
         <!-- Footer Brand Info -->
-        <div class="relative z-10 text-[10px] uppercase tracking-[0.3em] font-bold opacity-30 mt-auto">
-          B3
+        <div class="md:pt-2 pt-5 relative z-10 text-[10px] uppercase tracking-[0.3em] font-bold mt-auto">
+          <div class="w-48 h-24 bg-contain bg-no-repeat bg-center border border-gray-light p-4 shadow-sm"
+            [style.backgroundImage]="'var(--icon-logo)'" [style.backgroundColor]="'white'"></div>
         </div>
 
         <!-- Decorative Subtle Glow -->
@@ -116,6 +118,8 @@ interface InvestmentResponse {
 })
 export class CdbInvestmentTemplateComponent {
   private store = inject(Store);
+  private themeService = inject(ThemeService);
+
   private localeState = this.store.select(selectI18nState);
   currency = this.localeState.pipe(map(state => state.currency));
 
