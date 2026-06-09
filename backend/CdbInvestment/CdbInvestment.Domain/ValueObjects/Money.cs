@@ -12,7 +12,10 @@ namespace CdbInvestment.Domain.ValueObjects
 
         public Money(decimal value)
         {
-            if (value < 0) throw new ArgumentException("Money value cannot be negative.");
+            if (value <= 0)
+            {
+                throw new ArgumentException("O valor monetário investido deve ser positivo.");
+            }
             Value = value;
         }
 
@@ -20,7 +23,9 @@ namespace CdbInvestment.Domain.ValueObjects
         public bool Equals(Money? other)
         {
             if (other is null)
+            {
                 return false;
+            }
 
             return Value == other.Value;
         }

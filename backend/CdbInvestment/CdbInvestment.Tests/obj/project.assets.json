@@ -24,6 +24,17 @@
           "build/netstandard2.0/coverlet.collector.targets": {}
         }
       },
+      "coverlet.msbuild/10.0.1": {
+        "type": "package",
+        "build": {
+          "build/net10.0/coverlet.msbuild.props": {},
+          "build/net10.0/coverlet.msbuild.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/coverlet.msbuild.props": {},
+          "buildMultiTargeting/coverlet.msbuild.targets": {}
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/10.0.8": {
         "type": "package",
         "dependencies": {
@@ -698,7 +709,6 @@
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "CdbInvestment.Domain": "1.0.0",
-          "CdbInvestment.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "10.0.8",
           "NSwag.AspNetCore": "14.7.1"
         },
@@ -720,16 +730,6 @@
         },
         "runtime": {
           "bin/placeholder/CdbInvestment.Domain.dll": {}
-        }
-      },
-      "CdbInvestment.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/CdbInvestment.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CdbInvestment.Infrastructure.dll": {}
         }
       }
     }
@@ -827,6 +827,117 @@
         "coverlet-icon.png",
         "coverlet.collector.6.0.4.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "coverlet.msbuild/10.0.1": {
+      "sha512": "kb5kBe1HioGuH+ZDKysv/oAO9cCUW2yxtrGrRBZp/dIij5f011OfC4XiNMayZ8bGfOv2+n2ocPkaJIGppAZDEg==",
+      "type": "package",
+      "path": "coverlet.msbuild/10.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "MSBuildIntegration.md",
+        "_manifest/spdx_2.2/manifest.spdx.json",
+        "_manifest/spdx_2.2/manifest.spdx.json.sha256",
+        "build/net10.0/coverlet.msbuild.props",
+        "build/net10.0/coverlet.msbuild.targets",
+        "build/net8.0/coverlet.msbuild.props",
+        "build/net8.0/coverlet.msbuild.targets",
+        "build/net9.0/coverlet.msbuild.props",
+        "build/net9.0/coverlet.msbuild.targets",
+        "build/netstandard2.0/coverlet.msbuild.props",
+        "build/netstandard2.0/coverlet.msbuild.targets",
+        "buildMultiTargeting/coverlet.msbuild.props",
+        "buildMultiTargeting/coverlet.msbuild.targets",
+        "coverlet-icon.png",
+        "coverlet.msbuild.10.0.1.nupkg.sha512",
+        "coverlet.msbuild.nuspec",
+        "tasks/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tasks/net10.0/Microsoft.Extensions.DependencyInjection.dll",
+        "tasks/net10.0/Microsoft.Extensions.DependencyModel.dll",
+        "tasks/net10.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tasks/net10.0/Mono.Cecil.Mdb.dll",
+        "tasks/net10.0/Mono.Cecil.Pdb.dll",
+        "tasks/net10.0/Mono.Cecil.Rocks.dll",
+        "tasks/net10.0/Mono.Cecil.dll",
+        "tasks/net10.0/NuGet.Versioning.dll",
+        "tasks/net10.0/System.Security.Cryptography.Pkcs.dll",
+        "tasks/net10.0/coverlet.core.dll",
+        "tasks/net10.0/coverlet.core.pdb",
+        "tasks/net10.0/coverlet.core.xml",
+        "tasks/net10.0/coverlet.msbuild.tasks.deps.json",
+        "tasks/net10.0/coverlet.msbuild.tasks.dll",
+        "tasks/net10.0/coverlet.msbuild.tasks.pdb",
+        "tasks/net10.0/runtimes/win/lib/net10.0/System.Security.Cryptography.Pkcs.dll",
+        "tasks/net8.0/Microsoft.Bcl.Cryptography.dll",
+        "tasks/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tasks/net8.0/Microsoft.Extensions.DependencyInjection.dll",
+        "tasks/net8.0/Microsoft.Extensions.DependencyModel.dll",
+        "tasks/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tasks/net8.0/Mono.Cecil.Mdb.dll",
+        "tasks/net8.0/Mono.Cecil.Pdb.dll",
+        "tasks/net8.0/Mono.Cecil.Rocks.dll",
+        "tasks/net8.0/Mono.Cecil.dll",
+        "tasks/net8.0/NuGet.Versioning.dll",
+        "tasks/net8.0/System.Formats.Asn1.dll",
+        "tasks/net8.0/System.Security.Cryptography.Pkcs.dll",
+        "tasks/net8.0/coverlet.core.dll",
+        "tasks/net8.0/coverlet.core.pdb",
+        "tasks/net8.0/coverlet.core.xml",
+        "tasks/net8.0/coverlet.msbuild.tasks.deps.json",
+        "tasks/net8.0/coverlet.msbuild.tasks.dll",
+        "tasks/net8.0/coverlet.msbuild.tasks.pdb",
+        "tasks/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll",
+        "tasks/net9.0/Microsoft.Bcl.Cryptography.dll",
+        "tasks/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tasks/net9.0/Microsoft.Extensions.DependencyInjection.dll",
+        "tasks/net9.0/Microsoft.Extensions.DependencyModel.dll",
+        "tasks/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tasks/net9.0/Mono.Cecil.Mdb.dll",
+        "tasks/net9.0/Mono.Cecil.Pdb.dll",
+        "tasks/net9.0/Mono.Cecil.Rocks.dll",
+        "tasks/net9.0/Mono.Cecil.dll",
+        "tasks/net9.0/NuGet.Versioning.dll",
+        "tasks/net9.0/System.Formats.Asn1.dll",
+        "tasks/net9.0/System.Security.Cryptography.Pkcs.dll",
+        "tasks/net9.0/coverlet.core.dll",
+        "tasks/net9.0/coverlet.core.pdb",
+        "tasks/net9.0/coverlet.core.xml",
+        "tasks/net9.0/coverlet.msbuild.tasks.deps.json",
+        "tasks/net9.0/coverlet.msbuild.tasks.dll",
+        "tasks/net9.0/coverlet.msbuild.tasks.pdb",
+        "tasks/net9.0/runtimes/win/lib/net9.0/System.Security.Cryptography.Pkcs.dll",
+        "tasks/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tasks/netstandard2.0/Microsoft.Bcl.Cryptography.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.DependencyModel.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tasks/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "tasks/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "tasks/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "tasks/netstandard2.0/Mono.Cecil.dll",
+        "tasks/netstandard2.0/NuGet.Versioning.dll",
+        "tasks/netstandard2.0/System.Buffers.dll",
+        "tasks/netstandard2.0/System.Collections.Immutable.dll",
+        "tasks/netstandard2.0/System.Formats.Asn1.dll",
+        "tasks/netstandard2.0/System.Memory.dll",
+        "tasks/netstandard2.0/System.Numerics.Vectors.dll",
+        "tasks/netstandard2.0/System.Reflection.Metadata.dll",
+        "tasks/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "tasks/netstandard2.0/System.Security.AccessControl.dll",
+        "tasks/netstandard2.0/System.Security.Cryptography.Cng.dll",
+        "tasks/netstandard2.0/System.Security.Cryptography.Pkcs.dll",
+        "tasks/netstandard2.0/System.Security.Principal.Windows.dll",
+        "tasks/netstandard2.0/System.Text.Encodings.Web.dll",
+        "tasks/netstandard2.0/System.Text.Json.dll",
+        "tasks/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "tasks/netstandard2.0/coverlet.core.dll",
+        "tasks/netstandard2.0/coverlet.core.pdb",
+        "tasks/netstandard2.0/coverlet.core.xml",
+        "tasks/netstandard2.0/coverlet.msbuild.tasks.deps.json",
+        "tasks/netstandard2.0/coverlet.msbuild.tasks.dll",
+        "tasks/netstandard2.0/coverlet.msbuild.tasks.pdb"
       ]
     },
     "Microsoft.AspNetCore.OpenApi/10.0.8": {
@@ -1609,19 +1720,16 @@
       "type": "project",
       "path": "../CdbInvestment.Domain/CdbInvestment.Domain.csproj",
       "msbuildProject": "../CdbInvestment.Domain/CdbInvestment.Domain.csproj"
-    },
-    "CdbInvestment.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../CdbInvestment.Infrastructure/CdbInvestment.Infrastructure.csproj",
-      "msbuildProject": "../CdbInvestment.Infrastructure/CdbInvestment.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "CdbInvestment.API >= 1.0.0",
+      "CdbInvestment.Domain >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 18.6.0",
       "Moq >= 4.20.72",
       "coverlet.collector >= 6.0.4",
+      "coverlet.msbuild >= 10.0.1",
       "xunit >= 2.9.3",
       "xunit.runner.visualstudio >= 3.1.5"
     ]
@@ -1654,6 +1762,9 @@
           "projectReferences": {
             "/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.API/CdbInvestment.API.csproj": {
               "projectPath": "/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.API/CdbInvestment.API.csproj"
+            },
+            "/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Domain/CdbInvestment.Domain.csproj": {
+              "projectPath": "/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Domain/CdbInvestment.Domain.csproj"
             }
           }
         }
@@ -1686,6 +1797,12 @@
           "coverlet.collector": {
             "target": "Package",
             "version": "[6.0.4, )"
+          },
+          "coverlet.msbuild": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[10.0.1, )"
           },
           "xunit": {
             "target": "Package",

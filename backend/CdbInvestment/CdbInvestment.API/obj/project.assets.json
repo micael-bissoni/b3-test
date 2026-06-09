@@ -271,16 +271,6 @@
         "runtime": {
           "bin/placeholder/CdbInvestment.Domain.dll": {}
         }
-      },
-      "CdbInvestment.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/CdbInvestment.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CdbInvestment.Infrastructure.dll": {}
-        }
       }
     }
   },
@@ -585,17 +575,11 @@
       "type": "project",
       "path": "../CdbInvestment.Domain/CdbInvestment.Domain.csproj",
       "msbuildProject": "../CdbInvestment.Domain/CdbInvestment.Domain.csproj"
-    },
-    "CdbInvestment.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../CdbInvestment.Infrastructure/CdbInvestment.Infrastructure.csproj",
-      "msbuildProject": "../CdbInvestment.Infrastructure/CdbInvestment.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "CdbInvestment.Domain >= 1.0.0",
-      "CdbInvestment.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.8",
       "NSwag.AspNetCore >= 14.7.1"
     ]
@@ -628,9 +612,6 @@
           "projectReferences": {
             "/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Domain/CdbInvestment.Domain.csproj": {
               "projectPath": "/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Domain/CdbInvestment.Domain.csproj"
-            },
-            "/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Infrastructure/CdbInvestment.Infrastructure.csproj": {
-              "projectPath": "/Volumes/Elements/Projects/b3-test/backend/CdbInvestment/CdbInvestment.Infrastructure/CdbInvestment.Infrastructure.csproj"
             }
           }
         }

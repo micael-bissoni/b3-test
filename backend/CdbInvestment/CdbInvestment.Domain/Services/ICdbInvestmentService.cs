@@ -1,8 +1,8 @@
-using CdbInvestment.Domain.ValueObjects;
+using CdbInvestment.Domain.Dtos;
 namespace CdbInvestment.Domain.Services
 {
     public interface ICdbInvestmentService
     {
-        Task ProcessInvestment(Money investedAmount, InvestmentTerm termInMonths);
+        Task<ProcessCdbInvestimentResponse> ProcessInvestment(ProcessCdbInvestimentRequest request);
     }
 }

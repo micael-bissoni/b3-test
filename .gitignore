@@ -1,0 +1,23 @@
+# Visual Studio / .NET artifacts
+bin/
+obj/
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Node dependencies (Angular/Frontend)
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backend build artifacts
+backend/*/bin/
+backend/*/obj/
+
+# Frontend build artifacts (assuming 'dist' is the output)
+frontend/dist/
