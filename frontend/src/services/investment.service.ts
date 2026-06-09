@@ -19,7 +19,7 @@ export interface InvestmentResponse {
   providedIn: 'root',
 })
 export class InvestmentService {
-  private readonly apiUrl = 'api/CdbInvestimentApi/process-investment';
+  private readonly apiUrl = '/api/CdbInvestimentApi/process-investment';
 
   constructor(private http: HttpClient) { }
 
