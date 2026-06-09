@@ -34,3 +34,4 @@ Thumbs.db
 # Frontend build artifacts (assuming 'dist' is the output)
 **/._node_modules
 **/.nx
+**/generated/
