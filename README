@@ -24,7 +24,7 @@ dotnet test CdbInvestment.slnx
 
 dotnet test /p:CollectCoverage=true /p:CoverletOutput=./coverage/ /p:CoverletOutputFormat=cobertura
 
-### Instalar pacotes npm dento da pasta: frontend
+### Instalar pacotes npm dentro da pasta: frontend
 
 npm install
 
