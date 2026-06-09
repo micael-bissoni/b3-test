@@ -5,7 +5,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
-// <snippet_UseSwagger>
 builder.Services.AddScoped<ICdbInvestmentService, CdbInvestmentService>();
 
 var app = builder.Build();
@@ -13,12 +12,13 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+
     app.UseSwaggerUi(options =>
     {
+        options.Path = "/swagger";
         options.DocumentPath = "/openapi/v1.json";
     });
 }
-// </snippet_UseSwagger>
 
 app.UseHttpsRedirection();
 
